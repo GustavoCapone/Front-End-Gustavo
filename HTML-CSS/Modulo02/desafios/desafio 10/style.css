@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+@font-face {
+    font-family:'idroid';
+    src: url('idroid.otf') format(opentype), url('idroid.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+/*import url(extra/fontes/idroid.otf);*/
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#042037;
+    color: white;
+}
+header{
+   
+    background-image:linear-gradient(to bottom, #718EA4, black);
+    padding: 60px;
+    margin-bottom: 0px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-bottom: 10px;
+    
+}
+header > h1{
+    color: white;
+    font-weight:bold;
+    text-align: center;
+    margin-bottom:50px;
+}
+header > p{
+    color: white;
+    text-align: center;
+    margin-bottom:55px; 
+}
+nav{
+    padding: 5px 5px 0px 5px;
+    
+}
+nav > a{
+    text-decoration:none;
+    color: white;
+    margin-right: 30px;
+    
+
+}
+nav > a:hover{
+    
+    /*background-image:linear-gradient(to top,black, #718EA4);*/
+    background-color:rgba(128, 128, 128, 0.24);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+     
+}
+main{
+    background-color:white ;
+    padding: 50px;
+    margin: auto;
+    max-width: 800px;
+    min-width: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+
+    
+}
+main > p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+}
+main > h1{
+    color: black;
+    font-family:'idroid';
+    text-justify: auto;
+}
+main > h2{
+    color: black;
+    font-family:'idroid';
+    background-image:linear-gradient( to right,#718EA4 , white);
+
+}
+
+main > p.img{
+    text-align: center;
+}
+
+main > aside{
+    text-align: center;
+    background-color: #084574d7;
+    padding:40px;
+    margin-bottom:auto;
+    margin-top: auto;
+    margin-left: -50px;
+    margin-right: -50px;
+   
+    
+}
+article{
+    color: black;
+    background-color:#1571bd;
+    border-radius: 10px;
+}
+article > aside{
+    background-color:  #718EA4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+article > h2{
+    padding: 10px;
+    margin: 10px;
+}
+
+aside > p{
+    padding: 10px;
+    margin: 10px;
+}
+aside#lista > ul{
+    list-style-image:-moz-linear-gradient(center);
+    
+}
+aside > p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+aside > ul#p1{
+    columns: 2;
+    list-style-type: lower-roman;
+    
+}
+
+aside > p > a{
+    color: #042037;
+    background-color: #1571bd;
+    
+}
+footer{
+    background-color: #1571bd;
+    margin-top: 5px;
+    margin-bottom: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+footer > p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-align: center;
+}
